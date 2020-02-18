@@ -210,6 +210,13 @@ create: create [ARG] [PARAM 1] [PARAM 2] ...
 Uses [Travis-CI](https://travis-ci.org/) to run all tests on all commits to the
 github repo
 
+### New Version Features
+
+- Listen for changes for INPUT checkbox tag
+- Replace current CORS
+- Changed back-end population to front-end population
+- Populate page with checked amenities using newly implemented front-end population
+
 ## Authors
 
 * MJ Johnson, [@mj31508](https://github.com/mj31508)
