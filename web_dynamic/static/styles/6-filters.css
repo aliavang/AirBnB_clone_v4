@@ -120,11 +120,11 @@
 
 }
 
-.amenities input {
+input {
   margin-right: 10px;
 }
 
-.amenities h4 {
+.amenities h4, .locations h4 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
