@@ -9,8 +9,8 @@ $(function () {
     $('.amenities h4').text(Object.keys(checked).length === 0 ? '\xa0' : Object.values(checked).join(', '));
   });
 
-  $.get('http://0.0.0.0:5001/api/v1/status/')
-  .done(function (data) {
+  $.get('http://0.0.0.0:5001/api/v1/status/'
+  ).done(function (data) {
     if (data.status === 'OK') {
       $('#api_status').addClass('available');
     }
